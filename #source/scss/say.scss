@@ -1,0 +1,47 @@
+.say {
+  background: url("../img/bg/bg4.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.say__title {
+  font-size: 100px;
+  font-family: "Playfair Display", serif;
+  color: rgba(255, 255, 255, 0.902);
+  line-height: 0.22;
+  z-index: 159;
+  text-align: center;
+  padding-top: 70px;
+}
+.say__text {
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  color: rgba(255, 255, 255, 0.851);
+  line-height: 1.625;
+  text-align: center;
+  z-index: 158;
+  margin-top: 40px;
+}
+.say__name {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.571;
+  text-align: center;
+  z-index: 160;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.say__specealty {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 1.692;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 161;
+  padding-bottom: 30px;
+}

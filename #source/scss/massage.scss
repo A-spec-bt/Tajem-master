@@ -1,0 +1,132 @@
+.massage__all {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.massage__left-title {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  color: rgb(65, 61, 75);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  z-index: 109;
+  text-transform: uppercase;
+}
+.name {
+  padding: 15px 150px 15px 5px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid #cccccc;
+  margin: 10px 0 10px 0;
+}
+.subject {
+  padding: 15px 150px 15px 5px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid #cccccc;
+  margin: 10px 0 10px 0;
+}
+.message {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid #cccccc;
+  margin: 10px 0 10px 0;
+  padding: 40px 150px 40px 5px;
+}
+.name:focus {
+  border: 1px solid #ce0202;
+}
+.subject:focus {
+  border: 1px solid #ce0202;
+}
+.message:focus {
+  border: 1px solid #ce0202;
+}
+.massage-link-div {
+  text-align: left;
+  margin-top: 20px;
+}
+.massage-link {
+  font-size: 16px;
+  border: 2px solid #00e0d0;
+  padding: 10px 30px;
+  font-family: "Hammersmith One", sans-serif;
+  color: rgb(0, 224, 208);
+  line-height: 1.2;
+  z-index: 383;
+  text-transform: uppercase;
+}
+.massage-link:hover {
+  border: 2px solid #000000;
+  color: #000000;
+}
+.massage__right {
+  width: 400px;
+}
+.massage__right-title {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  color: rgb(65, 61, 75);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  z-index: 109;
+  text-transform: uppercase;
+}
+.massage__right-img-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.massage__right-img {
+  margin: 20px;
+  width: 160px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 980px) {
+  .name {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .subject {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .message {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .massage__all {
+    display: block;
+  }
+  .massage__left-title {
+    text-align: center;
+  }
+  .massage-link-div {
+    text-align: center;
+  }
+  .massage__right {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+  .massage__right-title {
+    text-align: center;
+  }
+}
+@media (max-width: 405px) {
+  .massage__right {
+    width: 300px;
+  }
+}

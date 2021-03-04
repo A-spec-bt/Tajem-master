@@ -1,0 +1,110 @@
+.about__flex {
+  display: flex;
+  margin: 70px 0;
+}
+.about__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.about__right {
+  max-width: 542px;
+  margin: 0 0 30px 100px;
+}
+.about__right-title {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  color: rgb(65, 61, 75);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 359;
+}
+.about__right-text {
+  margin: 30px 0 50px 0;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(65, 61, 75, 0.749);
+  line-height: 1.571;
+  z-index: 360;
+}
+.about__slider-link1 {
+  text-align: left;
+}
+.about__slider-link {
+  font-size: 16px;
+  border: 2px solid #00e0d0;
+  padding: 10px;
+  font-family: "Hammersmith One", sans-serif;
+  color: rgb(0, 224, 208);
+  line-height: 1.2;
+  z-index: 383;
+  text-transform: uppercase;
+}
+.about__slider-link:hover {
+  border: 2px solid #000000;
+  color: #000000;
+}
+.about__p {
+  margin: 25px 0px;
+}
+.about__bg {
+  background: url("../img/bg/bg2.png") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.about__content {
+  padding: 50px 0;
+}
+.about__bg-img {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+}
+.about__bg-title {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  z-index: 346;
+  margin-top: 34px;
+  text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+  .about__right {
+    margin: 50px 0 0 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about__flex {
+    display: block;
+  }
+  .about__img {
+    display: block;
+    height: auto;
+  }
+  .about__right-title {
+    text-align: center;
+  }
+  .about__right-text {
+    text-align: center;
+  }
+  .about__slider-link1 {
+    text-align: center;
+  }
+}
+@media (max-width: 680px) {
+  .about__bg-title {
+    font-size: 50px;
+  }
+  .massage__right {
+    width: 0;
+  }
+}

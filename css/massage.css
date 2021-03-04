@@ -1,0 +1,18 @@
+.massage__left-title {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  color: #413d4b;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  z-index: 109;
+  text-transform: uppercase;
+}
+
+.name:focus {
+  border: 1px solid #ce0202;
+}
+
+.message:focus {
+  border: 1px solid #ce0202;
+}
